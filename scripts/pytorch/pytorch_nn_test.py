@@ -14,7 +14,7 @@ import xml.etree.ElementTree as ET
 from engine import train_one_epoch, evaluate
 import utils
 
-fol_path = r"C:\Users\WinshipLab\Desktop\Abdallah\Oct11tfod\Tensorflow\workspace\NFOD\images\train"
+fol_path = "C:/Users/WinshipLab/Desktop/Abdallah/Oct11tfod/Tensorflow/workspace/NFOD/images/train"
 
 #input xml annotation folder path and converts to df
 def xml_to_df(path):
